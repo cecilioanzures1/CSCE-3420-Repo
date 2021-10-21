@@ -1,0 +1,52 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: white;
+}
+
+nav ul li a {
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+button {
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+
+#about-me .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#about-me .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#about-me img {
+    max-width: 130% !important;
+}
